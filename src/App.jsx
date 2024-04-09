@@ -1,10 +1,13 @@
 import './index.css'
+import HeroSection from './Sections/HeroSection'
+import Prueba from './Sections/Prueba'
 
 function App() {
 
   return (
     <>
-      <h1 className='text-xl font-bold text-red-500'>asasdsd</h1>
+      <HeroSection />
+      <Prueba />
     </>
   )
 }
