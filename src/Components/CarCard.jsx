@@ -18,7 +18,7 @@ function CarCard({name, carImg}) {
       </div>
 
         <div>
-          <img className="my-6" src={carImg} alt="" />
+          <img className="my-8" src={carImg} alt="" />
         </div>
 
         <div>

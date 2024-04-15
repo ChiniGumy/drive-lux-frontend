@@ -1,9 +1,9 @@
 import Navbar from "../Components/Navbar"
 import GlassCarCard from "../Components/GlassCarCard"
 
-function HeroSection() {
+function Hero() {
   return (
-    <div className="h-screen flex bg-gradient-to-t from-[#111111] from-10% via-transparent to-[#25252534] to-1%">
+    <div className="h-screen w-full flex bg-gradient-to-t from-[#111111] from-10% via-transparent to-[#25252534] to-1%">
 
     <Navbar />
 
@@ -18,8 +18,6 @@ function HeroSection() {
           <div className="w-[40%] relative">
             <div className="absolute top-[100px]">
               <GlassCarCard name='MERCEDES-AMG GT 63 S' carImg={'/img/mercedes.webp'} />
-              <GlassCarCard name='MERCEDES-AMG GT 63 S' carImg={'/img/mercedes.webp'} />
-              <GlassCarCard name='MERCEDES-AMG GT 63 S' carImg={'/img/mercedes.webp'} />
             </div>
           </div>
 
@@ -32,4 +30,4 @@ function HeroSection() {
   )
 }
 
-export default HeroSection
+export default Hero

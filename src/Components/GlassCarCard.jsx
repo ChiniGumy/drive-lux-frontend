@@ -4,7 +4,7 @@ import CarPrice from "./CarPrice"
 
 function GlassCarCard({name, carImg}) {
   return (
-    <div className="flex flex-col justify-between w-[430px] h-fit rounded-[15px] p-6  bg-[#ffffff28]  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
+    <div className="flex flex-col justify-between w-[420px] h-fit rounded-[15px] p-6  bg-[#ffffff28]  bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40">
 
       <div>
         <div>
