@@ -1,5 +1,5 @@
-import Navbar from "../Components/Navbar"
-import GlassCarCard from "../Components/GlassCarCard"
+import Navbar from "../../Components/Navbar"
+import GlassCarCard from "../../Components/GlassCarCard"
 
 function Hero() {
   return (

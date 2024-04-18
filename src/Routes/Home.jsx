@@ -1,10 +1,10 @@
-import Hero from '../Sections/Hero'
+import Hero from '../Sections/Home/Hero'
 import ObtainCarNav from '../Components/ObtainCarNav'
-import AboutUs from '../Sections/AboutUs'
-import HowTo from '../Sections/HowTo'
-import MostPopular from '../Sections/MostPopular'
-import FAQ from '../Sections/FAQ'
-import Footer from '../Sections/Footer'
+import AboutUs from '../Sections/Home/AboutUs'
+import HowTo from '../Sections/Home/HowTo'
+import MostPopular from '../Sections/Home/MostPopular'
+import FAQ from '../Sections/Home/FAQ'
+import Footer from '../Sections/Home/Footer'
 
 function Home() {
   return (
